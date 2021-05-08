@@ -2,6 +2,7 @@ import React,{useState, useRef} from 'react';
 import { StyleSheet, Text, View , ScrollView, Animated, Dimensions, TouchableOpacity, SafeAreaView} from 'react-native';
 const WIDTH = Dimensions.get("screen").width;
 
+// Add and remove elements from the array and the component will change dynamically. 
 const ColumnOptions = ['Tops', 'Accounts', 'Tags', 'Places',]
 
 export default function App() {
